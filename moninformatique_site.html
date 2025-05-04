@@ -1,0 +1,90 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>MonInformatique</title>
+  <link href="https://cdn.jsdelivr.net/npm/daisyui@5" rel="stylesheet" type="text/css" />
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-base-100 text-base-content">
+
+  <!-- Navbar -->
+  <div class="navbar bg-base-200 shadow-md px-4">
+    <div class="navbar-start">
+      <a class="btn btn-ghost text-xl">MonInformatique</a>
+    </div>
+    <div class="navbar-center hidden lg:flex">
+      <ul class="menu menu-horizontal px-1">
+        <li><a>Accueil</a></li>
+        <li><a>Produits</a></li>
+        <li><a>A propos</a></li>
+        <li><a>Contact</a></li>
+      </ul>
+    </div>
+    <div class="navbar-end">
+      <input type="text" placeholder="Rechercher" class="input input-bordered w-full max-w-xs" />
+    </div>
+  </div>
+
+  <!-- Carousel -->
+  <div class="carousel w-full mt-4">
+    <div id="item1" class="carousel-item w-full h-[300px]">
+      <img src="https://tse3.mm.bing.net/th?id=OIP.Bff5lIu6XXN70x75TM2oTQHaE7&pid=Api" class="w-full object-cover" alt="Image 1" />
+    </div>
+    <div id="item2" class="carousel-item w-full h-[300px]">
+      <img src="https://tse3.mm.bing.net/th?id=OIP.nMLcCeChpsVd1fxgMWaHsgHaEK&pid=Api" class="w-full object-cover" alt="Image 2" />
+    </div>
+    <div id="item3" class="carousel-item w-full h-[300px]">
+      <img src="https://img.daisyui.com/images/stock/photo-1414694762283-acccc27bca85.webp" class="w-full object-cover" alt="Image 3" />
+    </div>
+    <div id="item4" class="carousel-item w-full h-[300px]">
+      <img src="https://img.daisyui.com/images/stock/photo-1665553365602-b2fb8e5d1707.webp" class="w-full object-cover" alt="Image 4" />
+    </div>
+  </div>
+
+  <div class="flex justify-center gap-2 py-4">
+    <a href="#item1" class="btn btn-xs">1</a>
+    <a href="#item2" class="btn btn-xs">2</a>
+    <a href="#item3" class="btn btn-xs">3</a>
+    <a href="#item4" class="btn btn-xs">4</a>
+  </div>
+
+  <!-- Hero Section -->
+  <div class="hero min-h-[60vh]" style="background-image: url('https://img.daisyui.com/images/stock/photo-1507358522600-9f71e620c44e.webp');">
+    <div class="hero-overlay bg-opacity-60"></div>
+    <div class="hero-content text-center text-neutral-content">
+      <div class="max-w-md">
+        <h1 class="mb-5 text-5xl font-bold">Bienvenue</h1>
+        <p class="mb-5">Nous réparons, conseillons, et vendons tout votre matériel informatique.</p>
+        <button class="btn btn-primary">En savoir plus</button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <footer class="footer p-10 bg-base-200 text-base-content mt-10">
+    <nav>
+      <h6 class="footer-title">Services</h6>
+      <a class="link link-hover">Installation de logiciels</a>
+      <a class="link link-hover">Récupération de fichiers</a>
+      <a class="link link-hover">Mises à jour Windows/Mac</a>
+      <a class="link link-hover">Réparation matériel</a>
+    </nav>
+    <nav>
+      <h6 class="footer-title">Entreprise</h6>
+      <a class="link link-hover">A propos</a>
+      <a class="link link-hover">Recrutement</a>
+      <a class="link link-hover">CGU</a>
+      <a class="link link-hover">Contact</a>
+    </nav>
+    <nav>
+      <h6 class="footer-title">Légal</h6>
+      <a class="link link-hover">Politique de confidentialité</a>
+      <a class="link link-hover">Cookies</a>
+    </nav>
+  </footer>
+
+</body>
+</html>
